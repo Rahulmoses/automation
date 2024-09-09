@@ -1,4 +1,4 @@
-﻿**/.dockerignore
+**/.dockerignore
 **/.env
 **/.git
 **/.gitignore
@@ -23,3 +23,7 @@
 **/values.dev.yaml
 LICENSE
 README.md
+
+# Explicitly include the DemoApi directory and project file
+!DemoApi/
+!DemoApi/DemoApi.csproj
